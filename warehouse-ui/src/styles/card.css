@@ -1,0 +1,9 @@
+/* .card-img-top {
+    width: 14rem;
+    height: 14rem;
+} */
+
+.selectedBorder {
+    border-color: blue;
+    border-width: 1px;
+}

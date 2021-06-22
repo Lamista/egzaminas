@@ -6,7 +6,7 @@ import App from './App';
 
 import './styles/index.css';
 
-document.title = 'Egzaminas';
+document.title = 'Sandėlio valdymo sistema';
 
 ReactDOM.render(
   <React.StrictMode>

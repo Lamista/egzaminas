@@ -1,6 +1,6 @@
 {
-  "name": "artifact1-ui",
-  "homepage": "/artifact1/",
+  "name": "warehouse-ui",
+  "homepage": "/warehouse/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

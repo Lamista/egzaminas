@@ -1,0 +1,21 @@
+.page {
+    height: 100vh;
+    background-color: #87bee2;
+    color: #0a2230;
+    margin: 0;
+}
+
+/*not to show arrows on input of type number */
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
