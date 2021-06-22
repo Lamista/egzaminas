@@ -4,6 +4,7 @@ import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lt.laurastasiule.dto.ItemDto;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -31,10 +32,10 @@ public class Item {
     @JoinColumn(name="client_id")
     private Client client;
 
-    public Item(String title, String weight, short sectorNo, LocalDate placementDate) {
-        this.title = title;
-        this.weight = weight;
-        this.sectorNo = sectorNo;
-        this.placementDate = placementDate;
+    public Item(ItemDto itemDto) {
+        this.title = itemDto.getTitle();
+        this.weight = itemDto.getWeight();
+        this.sectorNo = itemDto.getSectorNo();
+        this.placementDate = itemDto.getPlacementDate();
     }
 }
