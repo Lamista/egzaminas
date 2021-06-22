@@ -22,6 +22,10 @@ public class ClientController {
         this.clientService = clientService;
     }
 
+    /**
+     * getClients
+     * @return List of all clients in database
+     */
     @GetMapping
     public List<ClientDto> getClients() {
         return clientService.getClients();
